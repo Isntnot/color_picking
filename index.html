@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link sc
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+     <style>
+        /* CSS styles can be defined here, or in an external stylesheet */
+        .color-block {
+            width: 200px;         /* Set the width of the block */
+            height: 150px;        /* Set the height of the block */
+            background-color: red; /* Set the solid background color */
+            border: 1px solid black; /* Optional: add a border */
+            margin: 20px;         /* Optional: add space around the block */
+        }
+        #red-slide {
+            accent-color: red; 
+        }
+        #green-slide {
+            accent-color: green; 
+        }
+        #blue-slide {
+            accent-color: blue; 
+        }
+    </style>
+</head>
+<body>
+     <div class="color-block" id="color-block"></div>
+    <div class="slider-container"> 
+        <div class="red-container">
+        <input type="range" max="256" min="0" class="slider" id="red-slide">
+        <input type="number"  max="256" min="0" id="red-number">
+        </div>
+        <div class="green-container"> 
+        <input type="range" max="256" min="0" class="slider" id="green-slide">
+        <input type="number" max="256" min="0" id="green-number">
+        </div>
+        <div class="blue-container">
+        <input type="range" max="256" min="0" class="slider" id="blue-slide">
+        <input type="number" max="256" min="0" id="blue-number"> 
+        </div>
+    </div>
+   <script src="index.js"></script>
+
+</body>
+</html>

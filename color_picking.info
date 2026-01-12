@@ -1,0 +1,9 @@
+{
+    "name": "color_picking",
+    "description": "Simple site",
+    "started_date": "2026-01-11",
+    "expected_date": null,
+    "finished": false,
+    "language": "python",
+    "main_file": "main.py"
+}
